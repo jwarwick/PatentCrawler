@@ -1,0 +1,21 @@
+Change List for PatentCrawler
+
+Version 1.5.11 Build 20060616
+	* USPTO website changed formatting of pages.  Updated
+	  the cgi path to do searches and download patents.
+	* Updated how references (us and international) are parsed to support new format
+
+Version 1.5.10 Build 20060220
+	* Updating search set parameters when importing patent list
+	* Updating search set parameters when the start button is pressed
+	* Fixed miscalculation of export special dialog range
+	* Replaced &nbsp; with " " in patent text fields
+	* Caching International Class data
+
+Version 1.5.9 Build 20060105
+	* Storing some patent info in the class instead of reparsing each time
+	* Added a USPTOPatent object cache in PatentCache.  This greatly increases memory usage.
+
+Version 1.5.9 Build 20060104
+      * Storing patent cache directory listing
+      * Displaying export special patent numbers in progress dialog

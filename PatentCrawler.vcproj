@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding = "Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="7.10"
+	Name="PatentCrawler"
+	ProjectGUID="{E2B25F96-EC79-36DD-932C-DB974B7B1745}"
+	Keyword="Qt4VSv1.0">
+	<Platforms>
+		<Platform
+			Name="Win32"/>
+	</Platforms>
+	<Configurations>
+		<Configuration
+			Name="Release|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="release\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;$(QTDIR)\include\QtCore&quot;,&quot;$(QTDIR)\include\QtNetwork&quot;,&quot;$(QTDIR)\include\QtGui&quot;,&quot;$(QTDIR)\include\QtXml&quot;,&quot;$(QTDIR)\include&quot;,&quot;$(QTDIR)\include\ActiveQt&quot;,&quot;release&quot;,&quot;.&quot;,C:/Qt/4.1.2/mkspecs/win32-msvc.net"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -EHsc -Zm200 -w34100 -w34189 -EHsc -w34100 -w34189"
+				AssemblerListingLocation="release\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="0"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="release\"
+				Optimization ="2"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_THREAD_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB,NDEBUG"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="2"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="$(QTDIR)\lib\qtmain.lib $(QTDIR)\lib\QtXml4.lib $(QTDIR)\lib\QtGui4.lib $(QTDIR)\lib\QtNetwork4.lib $(QTDIR)\lib\QtCore4.lib"
+				AdditionalLibraryDirectories="$(QTDIR)\lib"
+				GenerateDebugInformation="false"
+				IgnoreDefaultLibraryNames="&quot;libc&quot;"
+				IgnoreImportLibrary="true"
+				LinkIncremental="2"
+				OutputFile="bin\PatentCrawler.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="QT_NO_DEBUG,NDEBUG,_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_THREAD_SUPPORT,QT_DLL,QT_NO_DEBUG,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB"/>
+		</Configuration>
+		<Configuration
+			Name="Debug|Win32"
+			OutputDirectory="."
+			ATLMinimizesCRunTimeLibraryUsage="false"
+			ConfigurationType="1"
+			IntermediateDirectory="debug\"
+			UseOfMfc="0">
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalIncludeDirectories="&quot;$(QTDIR)\include\QtCore&quot;,&quot;$(QTDIR)\include\QtNetwork&quot;,&quot;$(QTDIR)\include\QtGui&quot;,&quot;$(QTDIR)\include\QtXml&quot;,&quot;$(QTDIR)\include&quot;,&quot;$(QTDIR)\include\ActiveQt&quot;,&quot;debug&quot;,&quot;.&quot;,C:/Qt/4.1.2/mkspecs/win32-msvc.net"
+				AdditionalOptions="-Zm200 -w34100 -w34189 -EHsc -Zm200 -w34100 -w34189 -EHsc -w34100 -w34189"
+				AssemblerListingLocation="debug\"
+				BufferSecurityCheck="false"
+				DebugInformationFormat="3"
+				ExceptionHandling="true"
+				GeneratePreprocessedFile="0"
+				ObjectFile="debug\"
+				Optimization ="4"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_THREAD_SUPPORT,QT_DLL,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB"
+				ProgramDataBaseFileName=".\"
+				RuntimeLibrary="3"
+				RuntimeTypeInfo="true"
+				SuppressStartupBanner="true"
+				WarningLevel="3"/>
+			<Tool
+				Name="VCCustomBuildTool"/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalDependencies="$(QTDIR)\lib\qtmaind.lib $(QTDIR)\lib\QtXmld4.lib $(QTDIR)\lib\QtGuid4.lib $(QTDIR)\lib\QtNetworkd4.lib $(QTDIR)\lib\QtCored4.lib"
+				AdditionalLibraryDirectories="$(QTDIR)\lib"
+				GenerateDebugInformation="true"
+				IgnoreDefaultLibraryNames="&quot;libc&quot;"
+				IgnoreImportLibrary="true"
+				OutputFile="bin\PatentCrawler.exe"
+				ProgramDatabaseFile=""
+				SubSystem="2"
+				SuppressStartupBanner="true"/>
+			<Tool
+				Name="VCMIDLTool"
+				DefaultCharType="0"
+				EnableErrorChecks="1"
+				WarningLevel="0"/>
+			<Tool
+				Name="VCPostBuildEventTool"/>
+			<Tool
+				Name="VCPreBuildEventTool"/>
+			<Tool
+				Name="VCPreLinkEventTool"/>
+			<Tool
+				Name="VCResourceCompilerTool"
+				PreprocessorDefinitions="_WINDOWS,UNICODE,WIN32,QT_LARGEFILE_SUPPORT,QT_THREAD_SUPPORT,QT_DLL,QT_XML_LIB,QT_GUI_LIB,QT_NETWORK_LIB,QT_CORE_LIB"/>
+		</Configuration>
+	</Configurations>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;def;odl;idl;hpj;bat;asm;asmx"
+			UniqueIdentifier="{4FC737F1-C7A5-4376-A066-2A32D752A2FF}">
+			<File
+				RelativePath="DownloadThread.cpp"/>
+			<File
+				RelativePath="MainWindow.cpp"/>
+			<File
+				RelativePath="PatentCache.cpp"/>
+			<File
+				RelativePath="PatentInterface.cpp"/>
+			<File
+				RelativePath="SearchItem.cpp"/>
+			<File
+				RelativePath="SearchSet.cpp"/>
+			<File
+				RelativePath="SearchSetParser.cpp"/>
+			<File
+				RelativePath="USPTOPatent.cpp"/>
+			<File
+				RelativePath="USPTOSearch.cpp"/>
+			<File
+				RelativePath="main.cpp"/>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp;hxx;hm;inl;inc;xsd"
+			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
+			<File
+				RelativePath="DownloadThread.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 DownloadThread.h -o release\moc_DownloadThread.cpp"
+						Description="MOC DownloadThread.h"
+						Outputs="release\moc_DownloadThread.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 DownloadThread.h -o debug\moc_DownloadThread.cpp"
+						Description="MOC DownloadThread.h"
+						Outputs="debug\moc_DownloadThread.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="MainWindow.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 MainWindow.h -o release\moc_MainWindow.cpp"
+						Description="MOC MainWindow.h"
+						Outputs="release\moc_MainWindow.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 MainWindow.h -o debug\moc_MainWindow.cpp"
+						Description="MOC MainWindow.h"
+						Outputs="debug\moc_MainWindow.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PatentCache.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 PatentCache.h -o release\moc_PatentCache.cpp"
+						Description="MOC PatentCache.h"
+						Outputs="release\moc_PatentCache.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 PatentCache.h -o debug\moc_PatentCache.cpp"
+						Description="MOC PatentCache.h"
+						Outputs="debug\moc_PatentCache.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="PatentInterface.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 PatentInterface.h -o release\moc_PatentInterface.cpp"
+						Description="MOC PatentInterface.h"
+						Outputs="release\moc_PatentInterface.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 PatentInterface.h -o debug\moc_PatentInterface.cpp"
+						Description="MOC PatentInterface.h"
+						Outputs="debug\moc_PatentInterface.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="SearchItem.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 SearchItem.h -o release\moc_SearchItem.cpp"
+						Description="MOC SearchItem.h"
+						Outputs="release\moc_SearchItem.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 SearchItem.h -o debug\moc_SearchItem.cpp"
+						Description="MOC SearchItem.h"
+						Outputs="debug\moc_SearchItem.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="SearchSet.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 SearchSet.h -o release\moc_SearchSet.cpp"
+						Description="MOC SearchSet.h"
+						Outputs="release\moc_SearchSet.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 SearchSet.h -o debug\moc_SearchSet.cpp"
+						Description="MOC SearchSet.h"
+						Outputs="debug\moc_SearchSet.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="SearchSetParser.h"/>
+			<File
+				RelativePath="USPTOPatent.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 USPTOPatent.h -o release\moc_USPTOPatent.cpp"
+						Description="MOC USPTOPatent.h"
+						Outputs="release\moc_USPTOPatent.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 USPTOPatent.h -o debug\moc_USPTOPatent.cpp"
+						Description="MOC USPTOPatent.h"
+						Outputs="debug\moc_USPTOPatent.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+			</File>
+			<File
+				RelativePath="USPTOSearch.h">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_NO_DEBUG -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;release&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 USPTOSearch.h -o release\moc_USPTOSearch.cpp"
+						Description="MOC USPTOSearch.h"
+						Outputs="release\moc_USPTOSearch.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\moc.exe"
+						CommandLine="$(QTDIR)\bin\moc.exe  -DUNICODE -DWIN32 -DQT_LARGEFILE_SUPPORT -DQT_THREAD_SUPPORT -DQT_DLL -DQT_XML_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB -I&quot;$(QTDIR)\include\QtCore&quot; -I&quot;$(QTDIR)\include\QtNetwork&quot; -I&quot;$(QTDIR)\include\QtGui&quot; -I&quot;$(QTDIR)\include\QtXml&quot; -I&quot;$(QTDIR)\include&quot; -I&quot;$(QTDIR)\include\ActiveQt&quot; -I&quot;debug&quot; -I&quot;.&quot; -IC:\Qt\4.1.2\mkspecs\win32-msvc.net -D_MSC_VER=1300 -DWIN32 USPTOSearch.h -o debug\moc_USPTOSearch.cpp"
+						Description="MOC USPTOSearch.h"
+						Outputs="debug\moc_USPTOSearch.cpp"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+		<Filter
+			Name="Generated Files"
+			Filter="cpp;c;cxx;moc;h;def;odl;idl;res;"
+			UniqueIdentifier="{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}">
+			<File
+				RelativePath="debug\moc_DownloadThread.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_DownloadThread.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_MainWindow.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_MainWindow.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_PatentCache.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_PatentCache.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_PatentInterface.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_PatentInterface.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_SearchItem.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_SearchItem.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_SearchSet.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_SearchSet.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_USPTOPatent.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_USPTOPatent.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="debug\moc_USPTOSearch.cpp">
+				<FileConfiguration
+					Name="Release|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="release\moc_USPTOSearch.cpp">
+				<FileConfiguration
+					Name="Debug|Win32"
+					ExcludedFromBuild="true"/>
+			</File>
+			<File
+				RelativePath="ui_MainWindow.h"/>
+		</Filter>
+		<Filter
+			Name="Form Files"
+			Filter="ui"
+			UniqueIdentifier="{99349809-55BA-4b9d-BF79-8FDBB0286EB3}"
+			ParseFiles="false">
+			<File
+				RelativePath="MainWindow.ui">
+				<FileConfiguration
+					Name="Release|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe"
+						CommandLine="$(QTDIR)\bin\uic.exe MainWindow.ui -o ui_MainWindow.h"
+						Description="UIC MainWindow.ui"
+						Outputs="ui_MainWindow.h"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+				<FileConfiguration
+					Name="Debug|Win32">
+					<Tool
+						Name="VCCustomBuildTool"
+						AdditionalDependencies="$(QTDIR)\bin\uic.exe"
+						CommandLine="$(QTDIR)\bin\uic.exe MainWindow.ui -o ui_MainWindow.h"
+						Description="UIC MainWindow.ui"
+						Outputs="ui_MainWindow.h"
+						Path="$(QTDIR)/bin"/>
+				</FileConfiguration>
+			</File>
+		</Filter>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

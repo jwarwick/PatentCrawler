@@ -1,0 +1,7 @@
+PatentCrawler To Do List
+
+- normal export is broken, generating funky data.  Double check that this uses the cached patents.
+
+- look for broken output strings in ABST/safety AND ABST/vehicle
+
+- add a checkbox for keeping patents in memory
