@@ -1,3 +1,5 @@
+*Note: This is legacy code that almost certainly doesn't scrape the USPTO site correctly anymore. Only storing here in case the basic code is useful to someone.*
+
 # PatentCrawler v1.5.11 README
 John Warwick, 16 June 2006
 
